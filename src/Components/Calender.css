@@ -1,0 +1,36 @@
+.calendar-container {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .day-cell {
+    padding: 10px;
+    background: lightblue;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .holiday {
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
+  
